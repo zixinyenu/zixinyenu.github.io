@@ -1,6 +1,6 @@
 ---
-name: 3D Object Detection and Pose Estimation
-tools: [C++, ROS, Pytorch, PCL, OpenCV]
+name: Particle Filter Implimentation From Scratch
+tools: [Python, NumPy, Matplotlib]
 image: https://jiasenzheng.github.io/assets/detection.gif
 description: Designed a computer vision setup and implemented software to detect objects and estimate their poses in 3D space.
 ---
