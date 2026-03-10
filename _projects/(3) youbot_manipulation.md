@@ -1,11 +1,11 @@
 ---
-name: Youbot Mobile Manipulation
-tools: [Python, Coppliasim, Trajectory Generation]
+name: Particle Filter Implimentation From Scratch
+tools: [Python, NumPy, Matplotlib]
 image: https://jiasenzheng.github.io/assets/best.gif
 description: Controlled a Youbot to pick and place a block with user-specified positions and then simulated it in Coppeliasim.
 ---
 
-# Youbot Mobile Manipulation <br><br>
+# Particle Filter Implimentation From Scratch <br><br>
 
 ### Brief Overview
 <br>

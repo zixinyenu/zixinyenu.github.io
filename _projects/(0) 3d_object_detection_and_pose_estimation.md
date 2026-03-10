@@ -1,11 +1,11 @@
 ---
-name: Particle Filter Implimentation From Scratch
-tools: [Python, NumPy, Matplotlib]
+name: Map-less, Goal-driven Navigation for TurtleBot 3 Based on Reinforcement Learning
+tools: [Python, ROS 2, Gazebo, Stable Baselines 3, Gymnasium]
 image: https://jiasenzheng.github.io/assets/detection.gif
-description: Designed a computer vision setup and implemented software to detect objects and estimate their poses in 3D space.
+description: Designed a training framework for TurtleBot 3 navigation via reinforcement learning approach and built the training pipeline.
 ---
 
-# Point Cloud Object Detection and Pose Estimation
+# Map-less, Goal-driven Navigation for TurtleBot 3 Based on Reinforcement Learning
 <br>
 ### Objective
 <br>
