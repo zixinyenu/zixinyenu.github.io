@@ -39,6 +39,7 @@ TO BE ADDED.
 ### Training Framework
 The training framework of this project can be explained in three phases as follows.
 <br>
+
 **Phase 1**
 <img src="{{ site.url }}{{ site.baseurl }}/assets/0_phase_1_training.gif"/>
 <br>
@@ -52,12 +53,14 @@ goal position which could be anywhere in the map, with a tolerance of 0.25 meter
 * Phase 1.3: Anywhere on the map within the fences could be given as the goal position for every episode of training. Finishing this sub-phase will yield a base motion model for the following phase.
 <img src="{{ site.url }}{{ site.baseurl }}/assets/0_phase_1_3_outcome.gif"/>
 <br>
+
 **Phase 2**
 This is the second phase of the model training. A good motion model has been trained from last phase, which issues twist commands to navigatie the TurtleBot 3 to reach any goal position in a obstacle-free environment. Now obstacles will be added as a part of the training environment. The robot is still spawn at the origin of the map frame with orientation of 0.0, and obstalces will be added right on a straight line from the robot to the goal position. In Phase 2 all the environment settings except goal position is fixed for every episode, which means the randomness is relatively constrained. The robot will learn basic obstacle avoidance, and the model gained from this phase will be used as the base model for Phase 3.
 * Phase 2.1: TO DO
 * Phase 2.2: TO DO
 * Phase 2.3: TO DO
 <br>
+
 **Phase 3**
 This is the third phase of the model training. A model with good navigation and basic obstacle avoidance has been trained from last phase. Now more randomness is introduced to the training environment. The TurtleBot 3 could be spawned at any location on the map with any possible orientation. There are different numbers of obstacles with different sizes, locations and orientations for eacho episode. The goal position also could be any empty spot on the map.
 * TO DO
