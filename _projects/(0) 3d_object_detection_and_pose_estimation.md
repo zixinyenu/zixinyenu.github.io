@@ -1,7 +1,7 @@
 ---
 name: Map-less, Goal-driven Navigation for TurtleBot 3 Based on Reinforcement Learning
 tools: [Python, ROS 2, Gazebo, Stable Baselines 3, Gymnasium]
-image: https://jiasenzheng.github.io/assets/0_phase_3_training.gif
+image: https://zixinyenu.github.io/assets/0_phase_3_training.gif
 description: Designed a training framework for TurtleBot 3 navigation via reinforcement learning approach and built the training pipeline.
 ---
 
