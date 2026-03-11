@@ -26,6 +26,7 @@ TO BE ADDED.
 <br>
 
 ### Software
+<br>
 * ROS 2: An open-source robotics middleware suite which provides a set of software frameworks for robot software development.
 * Gazebo: An open-source 3D robotics simulator.
 * Stable Baselines 3: A set of reliable implementations of reinforcement learning algorithms in PyTorch. It is the latest major version of Stable Baselines, which is an improved version of OpenAI Baselines.
@@ -34,6 +35,27 @@ TO BE ADDED.
 ### Pipeline
 <br>
 <img src="{{ site.url }}{{ site.baseurl }}/assets/winter_project_diagram.drawio.png"/>
+<br>
+
+### Training Framework
+<br>
+The training framework of this project can be explained in three phases as follows.
+<br>
+**Phase 1**
+<br>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/0_phase_1_training.gif"/>
+<br>
+This is the first stage of the model training. Since the training pipeline as shown in the above figure
+consists of a lot of various systems, sub-systems and communication between them, user should conduct 
+intensive debugging and functionality varification before working on any complicated learning goal. In the Phase 1, the TurtleBot 3 is always spawned at (0.0, 0.0, 0.0) in the map frame with an orientation of 0.0, and the map is empty (has no obstacles). It is going to learn to navigate to a randomly generated 
+goal position which could be anywhere in the map, with a tolerance of 0.25 meters. The model gained in this phase will be used as a base model and be retrained in the following Phase Two.
+* Phase 1.1: A goal position of (1.5, 0.0, 0.0) is given for every episode of training.
+<br>
+**Phase 2**
+<br>
+**Phase 3**
+<br>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/0_phase_3_training.gif"/>
 <br>
 
 
