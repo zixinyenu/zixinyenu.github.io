@@ -7,32 +7,34 @@ description: Designed a training framework for TurtleBot 3 navigation via reinfo
 
 # Map-less, Goal-driven Navigation for TurtleBot 3 Based on Reinforcement Learning
 <br>
-### Objective
+### Project Description
 <br>
-**[Shape-Based Remote Manipulation](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2221571&HistoricalAwards=false) (NSF)**: We are building an operating interface coupled with a manipulator that promises communication across the distance barrier. 
+Mobile robots deployed in real-world environments are expected to navigate reliably around
+their surroundings. In static environments, a map could be built to help with the localization
+and path-planning of the robot. However, in a new or dynamic environment where
+preserving a map is not feasible, it is more appropriate to develop a map-less approach
+which only relies on sensor readings.
 <br><br>
-**My Focus**: As the first stage of this project, I am responsible for developing a perception system to sense the manipulator’s environment.
-<br><br>
-**Goal**: This project aims to design a computer vision setup and implement software to detect objects and estimate their poses in 3D space.
+This project aims to create a navigation model for TurtleBot1 robot via a reinforcement
+learning approach. It is assumed that no priori information about the environment is given
+to the robot, but only distance and relative bearing between the robot position and 
+the goal position is provided along with lidar readings as the observation space.
 <br>
 ### Video demo
-{% include elements/video.html id="uvhC8gluA9o" %}
+<br>
+TO BE ADDED.
 <br>
 
-### Hardware
-* Intel Realsense Lidar L515
-
-Intel realsense L515 uses a solid-state Lidar to sense depth. The Lidar can provide organized point clouds. It also has an RGB camera which is calibrated with the Lidar.
+### Software
+* ROS 2: An open-source robotics middleware suite which provides a set of software frameworks for robot software development.
+* Gazebo: An open-source 3D robotics simulator.
+* Stable Baselines 3: A set of reliable implementations of reinforcement learning algorithms in PyTorch. It is the latest major version of Stable Baselines, which is an improved version of OpenAI Baselines.
+* Gymnasium: An API standard for reinforcement learning which helps create custom environment. It is a maintained fork of OpenAI’s Gym library.
 
 ### Pipeline
 <br>
 <img src="{{ site.url }}{{ site.baseurl }}/assets/det_pipeline.png"/>
 <br>
-
-### software
-The software of this project can be explained in two stages based on the two ROS nodes I have in the project:
-* Inference server
-* Perception core
 
 **Inference server**<br>
 The inference server is a ROS node that runs a deep learning model (CNN) to detect objects in the image space. The inference server is implemented in Python using [Detectron2](https://github.com/facebookresearch/detectron2) and Pytorch as the deep learning framework. For the use case of this project, a custom dataset is created to train the model. Mask-RCNN is used as the model architecture since we need to implement instance segmentation. The model was then trained with 100 self-labeled images with an ontology of a "cheez-it" box. The labeled images are shown below:
