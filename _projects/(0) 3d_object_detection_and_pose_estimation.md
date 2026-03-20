@@ -1,8 +1,8 @@
 ---
-name: 3D Object Detection and Pose Estimation
-tools: [C++, ROS, Pytorch, PCL, OpenCV]
-image: https://jiasenzheng.github.io/assets/detection.gif
-description: Designed a computer vision setup and implemented software to detect objects and estimate their poses in 3D space.
+name: Reinforcement Learning Approach to Robot Navigation and Obstacle Avoidance
+tools: [Python, ROS 2, Gazebo, Stable Baselines 3, Gymnasium]
+image: https://zixinyenu.github.io/assets/me499/0_profie_pic.gif
+description: Designed a curriculum learning strategy, built a training pipeline to implement multiple reinforcement learning algorithms and trained a model to achieve robot navigation and obstacle avoidance.
 ---
 
 # Point Cloud Object Detection and Pose Estimation
