@@ -16,7 +16,7 @@ description: Designed a curriculum learning strategy, built a training pipeline 
 **Goal**: This project aims to design a computer vision setup and implement software to detect objects and estimate their poses in 3D space.
 <br>
 ### Video demo
-{% include elements/video.html id="uvhC8gluA9o" %}
+{% include elements/video.html id="yf98pt72DS0" %}
 <br>
 
 ### Hardware
