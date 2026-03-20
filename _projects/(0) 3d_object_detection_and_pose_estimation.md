@@ -26,7 +26,7 @@ Intel realsense L515 uses a solid-state Lidar to sense depth. The Lidar can prov
 
 ### Pipeline
 <br>
-<img src="{{ site.url }}{{ site.baseurl }}/assets/det_pipeline.png"/>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/me499/det_pipeline.png"/>
 <br>
 
 ### software
@@ -43,7 +43,7 @@ The software of this project can be explained in two stages based on the two ROS
 **Phase 1**
 <br>
 * Phase 1.1: 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/0_p11.gif"/>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/me499/0_p11.gif"/>
 * Phase 1.2: 
 * Phase 1.3: 
 <br>
