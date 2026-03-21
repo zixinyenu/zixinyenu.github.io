@@ -17,15 +17,12 @@ weight: 3
     </section><hr><br>
     <section>
         <h3>Email</h3>
-        <a class="dy ke" href="mailto:jiasenzheng2020@u.northwestern.edu" rel="noopener ugc nofollow" target="_blank">jiasenzheng2020@u.northwestern.edu</a>
+        <a class="dy ke" href="mailto:zixin_ye@outlook.com" rel="noopener ugc nofollow" target="_blank">zixin_ye@outlook.com</a>
     </section><hr><br>
     <section>
         <h3>Social</h3>
         <p class="text-left">
-        {% include elements/button.html link="https://github.com/JiasenZheng" text="GitHub" %}
-        </p>
-        <p class="text-left">
-        {% include elements/button.html link="https://linkedin.com/in/jiasen-zheng" text="Linkedin" %}
+        {% include elements/button.html link="https://github.com/zixinyenu" text="GitHub" %}
         </p>
     </section><hr><br>
 </section>
