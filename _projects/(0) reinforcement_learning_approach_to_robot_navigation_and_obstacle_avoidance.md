@@ -52,7 +52,9 @@ and obstacle avoidance in a random environment. A training framework based on cu
 
 
 ### Training Strategy: Curriculum Learning
-
+The mission of the desired model is doing ==robot navigation== and ==obstalce avoidance== in a static environment with ==a high level of randomness==. Training a model to fulfill all these three elements requires a complicated environment and a complex reward function, which is a nightmare for debugging. Learning all of them at once is even more unrealistic, since the model can easily get stuck in any local optimum. Therefore the curriculum learning strategy is adopted for this project.
+Curriculum learning let the model to be trained on increasing difficulty. The model is going to learn the general principles from easier cases at early phases, and then be exposed to more complex and nuanced cases gradually at later phases to incorporate higher level information.
+This project is divided into the following three phases (six sub-phases).
 <br>
 
 **Phase 1: Navigation in an Obstacle Free Environment**
