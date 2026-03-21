@@ -44,13 +44,17 @@ The software of this project can be explained in two stages based on the two ROS
 * Phase 1.1: 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/me499/0_p11.gif"/>
 * Phase 1.2: 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/me499/0_p12.gif"/>
 * Phase 1.3: 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/me499/0_p13.gif"/>
 <br>
 
 **Phase 2**
 <br>
 * Phase 2.1:
+<img src="{{ site.url }}{{ site.baseurl }}/assets/me499/0_p21.gif"/>
 * Phase 2.2:
+<img src="{{ site.url }}{{ site.baseurl }}/assets/me499/0_p22.gif"/>
 <br>
 
 **Phase 3**
