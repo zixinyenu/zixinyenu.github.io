@@ -75,7 +75,7 @@ This project is divided into the following three phases (six sub-phases).
 
 **Phase 3 Navigation and Obstacle Avoidance in a Random Environment**
 <br>
-Now a high level of randomness is added to the training process. The robot spawning, goal setting and obstacle placing are all random for eacho episode!
+Now a high level of randomness is added to the training process. The robot spawning, goal setting and obstacle placing are all random for each episode!
 <img src="{{ site.url }}{{ site.baseurl }}/assets/me499/0_p3_map_gen.gif"/>
 <br>
 * Phase 3.1: The robot can be spawned at anythere within the walls with an random orientation. The goal position can be set at anywhere within the walls as far as it does not collide with an obstalce. The obstalces for each episode have different shapes, positions and orientations. The model is expected to so general that it can handle a wide range of environments.
