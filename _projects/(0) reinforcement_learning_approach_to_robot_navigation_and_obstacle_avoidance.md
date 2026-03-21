@@ -82,7 +82,8 @@ and obstacle avoidance in a random environment. A training framework based on cu
 
 
 ### Future Scope 
-* 
+* Implement More RL Algorithms: Due to the time constraint of the winter quarter, the development on this project by this post so far only has a span of 10 weeks. Most of the models across Phase 1 to Phase 3 were trained with PPO, some of them were also trained with A2C. Stable Baselines 3 provides optimized implementation of a great number of RL algorithms, which should definitely be tried on this topic.
+* Deploy Trained Models on a Real TurtleBot3: The performance of trained models has only been verified in simulation. Model deployment on real robots is expected in the future.
 
 ### Citations
-*
+1. Dobrevski M, Skočaj D. Deep reinforcement learning for map-less goal-driven robot navigation. International Journal of Advanced Robotic Systems. 2021;18(1). doi:10.1177/1729881421992621
