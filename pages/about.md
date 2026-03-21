@@ -8,9 +8,9 @@ weight: 2
 # **About Me**
 <br>
 <font size="+1">
-Hi, I am <b>Jiasen (Jason) Zheng</b> :wave:.<br>
+Hi, I am <b>Zixin Ye</b> :wave:.<br>
 
-I am currently a student in the M.S. <b>Robotics</b> program at Northwestern University. Before Northwestern, I received my Bachelor's degree in Mechanical Engineering from Union College, where I developed various skills in mechanical design, engineering simulations, and mathematics. I am interested in the <b>Autonomous Vehicle</b> industry, and my projects involve <b>Perception</b>, <b>SLAM</b>, <b>Planning</b>, etc.
+I am currently a student in the <b>M.S. in Robotics</b> program at Northwestern University. Before Northwestern, I received my <b>B.S.E in Mechanical Engineering<b> and <b>B.S. in Computer Science<b> from the University of Pittsburgh, where I developed all-round skills and knowledge as a roboticist. I am interested in industrial robots, and my projects involve <b>Reinforcement Learning</b>, <b>SLAM</b>, <b>Planning</b>, etc.
 </font>
 
 <!-- <div class="row">
