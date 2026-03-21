@@ -5,33 +5,49 @@ image: https://zixinyenu.github.io/assets/me499/0_profile.gif
 description: Designed a curriculum learning strategy, built a training pipeline to implement multiple reinforcement learning algorithms and trained a model to achieve robot navigation and obstacle avoidance.
 ---
 
-# Point Cloud Object Detection and Pose Estimation
+
+
+# Reinforcement Learning Approach to Robot Navigation and Obstacle Avoidance
 <br>
-### Objective
-<br>
-**[Shape-Based Remote Manipulation](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2221571&HistoricalAwards=false) (NSF)**: We are building an operating interface coupled with a manipulator that promises communication across the distance barrier. 
-<br><br>
-**My Focus**: As the first stage of this project, I am responsible for developing a perception system to sense the manipulator’s environment.
-<br><br>
-**Goal**: This project aims to design a computer vision setup and implement software to detect objects and estimate their poses in 3D space.
-<br>
+
+
+
 ### Video demo
 {% include elements/video.html id="yf98pt72DS0" %}
 <br>
 
-### Hardware
-* Intel Realsense Lidar L515
 
-Intel realsense L515 uses a solid-state Lidar to sense depth. The Lidar can provide organized point clouds. It also has an RGB camera which is calibrated with the Lidar.
 
-### Pipeline
+### Motivation
+The deployment of mobile robots in real world is a challenging task, since the robots 
+are expected to safely navigate themselves in new or dynamic environments, where perserving 
+an explicit map can be impractical. Online pathfinding algorithms and SLAM algorithms have been 
+developed and optimized for a long time to solve this challenge. While recent years have seen 
+application of reinforcement learning recorded than any other time, the potential of applying RL 
+on mobile robots cannot be easily neglected. Therefore, a RL approach to robot navigation and obstacle 
+avoidance is presented in this project.
 <br>
+
+
+
+### Overview
+This project aims to train a deep reinforcement learning model for TurbleBot 3 to perform navigation 
+and obstacle avoidance in a random environment. A training framework based on curriculum learning strategy as well as a training pipeline in simulated environment have been developed to achieve this goal. It is assumed that no priori information about the environment is given to the robot, but only distance, relative bearing and lidar readings are accessible.
 <br>
 
-### software
-The software of this project can be explained in two stages based on the two ROS nodes I have in the project:
-* Inference server
-* Perception core
+
+
+### Architecture
+<br>
+
+
+
+### Software
+* ROS 2: An open-source robotics middleware suite which provides a set of software frameworks for robot software development.
+* Gazebo: An open-source 3D robotics simulator.
+* Stable Baselines 3: A set of reliable implementations of reinforcement learning algorithms in PyTorch. It is the latest major version of Stable Baselines, which is an improved version of OpenAI Baselines.
+* Gymnasium: An API standard for reinforcement learning which helps create custom environment. It is a maintained fork of OpenAI’s Gym library.
+<br>
 
 
 
@@ -67,3 +83,6 @@ The software of this project can be explained in two stages based on the two ROS
 
 ### Future Scope 
 * 
+
+### Citations
+*
