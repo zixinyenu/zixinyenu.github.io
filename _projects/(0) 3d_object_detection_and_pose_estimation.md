@@ -1,7 +1,7 @@
 ---
 name: Reinforcement Learning Approach to Robot Navigation and Obstacle Avoidance
 tools: [Python, ROS 2, Gazebo, Stable Baselines 3, Gymnasium]
-image: https://zixinyenu.github.io/assets/me499/0_profie.gif
+image: https://zixinyenu.github.io/assets/me499/0_profile.gif
 description: Designed a curriculum learning strategy, built a training pipeline to implement multiple reinforcement learning algorithms and trained a model to achieve robot navigation and obstacle avoidance.
 ---
 
