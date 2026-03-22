@@ -12,6 +12,12 @@ description: Designed a curriculum learning strategy, built a training pipeline 
 
 
 
+<p class="text-center">
+{% include elements/button.html link="https://github.com/zixinyenu/winter-project" text="GitHub" %}
+</p>
+
+
+
 ### Video demo
 {% include elements/video.html id="yf98pt72DS0" %}
 <br>
